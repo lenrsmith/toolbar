@@ -1,0 +1,40 @@
+"#bottomToolbar": {
+	bottom: 0,
+	height: 40,
+	width: Titanium.UI.FILL,
+	backgroundColor: '#fdeaf4',
+},
+
+".btn_tool": {
+	height: 27
+},
+
+"#btn_toolbar_messages": {
+	right: 5
+},
+
+"#btn_toolbar_back": {
+	left: 5,
+	visible: true
+},
+
+"#btn_toolbar_refresh":{
+	left: 40
+},
+
+"#btn_toolbar_settings": {
+	left: 5
+},
+
+"#badge": {
+	top: 2,
+	right: 42,
+	height: 15,
+	width: 15,
+	backgroundColor: "transparent",
+	backgroundImage: 'images/icons/badge.png', 
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#FFFFFF",
+	font: {fontSize: 10},
+	visible: false
+}

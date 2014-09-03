@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="bottomToolbar">
+		<ImageView class="btn_tool" id="btn_toolbar_settings" onClick="goSettings" image="images/icons/gear.png" visible="false" />
+		<ImageView class="btn_tool" id="btn_toolbar_back" onClick="goBack" image="images/icons/back.png" />
+		<ImageView class="btn_tool" id="btn_toolbar_refresh" onClick="goRefresh" image="images/icons/refresh.png" visible="fasle" />
+		<ImageView class="btn_tool" id="btn_toolbar_messages" onClick="checkMessages" image="images/icons/envelope.png" />
+		<Label id="badge">99</Label>
+	</View>
+</Alloy>
